@@ -1,4 +1,3 @@
-// App.js
 import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
@@ -13,7 +12,7 @@ function App() {
       <Stack.Navigator initialRouteName="Landing">
         <Stack.Screen name="Landing" component={LandingPage} />
         {/* <Stack.Screen name="Home" component={HomePage} /> */}
-        <Stack.Screen name='FaceScanning' component={FaceScanner}/>
+        <Stack.Screen name='FaceScanner' component={FaceScanner}/>
       </Stack.Navigator>
     </NavigationContainer>
   );

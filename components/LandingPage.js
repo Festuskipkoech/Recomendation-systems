@@ -4,7 +4,7 @@ import { View, Text,StyleSheet, ActivityIndicator} from 'react-native';
 export default function LandingPage({navigation}) {
     useEffect(() => {
         const timer= setTimeout(() =>{
-            navigation.navigate('Students DataSpot');
+            navigation.navigate('FaceScanner');
         }, 1500); //delays for 1.5 secs
         return () =>clearTimeout(timer); //clean up the timer
     }, [navigation]);
@@ -12,7 +12,7 @@ export default function LandingPage({navigation}) {
         <View style={styles.container}>
             <ActivityIndicator size="large" color="#F4BB44"/>
             <Text style={styles.text}>Students DataSpot</Text>
-            <Icon name="database" size={110} color="#000" />
+            <Icon name="database" size={110} color="#343434"/>
             <Text style={styles.text}>Botton stuff</Text>
 
         </View>

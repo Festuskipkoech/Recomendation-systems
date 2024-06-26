@@ -5,12 +5,8 @@ export default function HomePage() {
         <View style={styles.container}>
             <Text style={styles.text}>You have just landed to the home page</Text>
         </View>
-
-    )
-    
+    ) 
 }
-
-
 const styles = StyleSheet.create({
     container: {
       flex: 1,
